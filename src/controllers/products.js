@@ -80,7 +80,6 @@ export const addProduct = async (req, res, next) => {
       return path.join(__dirname, '/public/img/', file.filename);
     });
   }
-
   if (req.session.user.role === 'premium') {
     owner = req.session.passport.user;
   }
@@ -119,7 +118,7 @@ export const addProduct = async (req, res, next) => {
       response(
         res,
         201,
-        `El producto se creo correctamente con el id: ${newProduct.id}`
+        newProduct.product
       );
     }
   } else {

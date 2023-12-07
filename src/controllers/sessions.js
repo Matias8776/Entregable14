@@ -71,7 +71,7 @@ export const failLogin = (req, res) => {
 };
 
 export const register = async (req, res) => {
-  response(res, 200, `Usuario registrado correctamente, ${req.user._id}`);
+  response(res, 200, req.user);
 };
 
 export const failRegister = (req, res) => {

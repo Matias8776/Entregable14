@@ -1,4 +1,4 @@
-# Entregable 13
+# Entregable 14
 
 &nbsp;
 
@@ -6,10 +6,16 @@
 
 ###
 
-- git clone https://github.com/Matias8776/Entregable13.git
-- cd Entregable13
+- git clone https://github.com/Matias8776/Entregable14.git
+- cd Entregable14
 - npm i
 - npm start
+
+## Test(con el servidor ON):
+
+###
+
+- mocha test/supertest.test.js
 
 ## Documentación(necesita iniciar sesión para probar las rutas protegidas):
 

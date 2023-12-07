@@ -1,5 +1,5 @@
 {
-  "name": "entregable13",
+  "name": "entregable14",
   "version": "1.0.0",
   "type": "module",
   "description": "&nbsp;",
@@ -38,10 +38,13 @@
     "winston": "^3.11.0"
   },
   "devDependencies": {
+    "chai": "^4.3.10",
     "eslint": "^8.51.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-n": "^16.2.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }

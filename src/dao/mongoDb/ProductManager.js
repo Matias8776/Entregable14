@@ -54,7 +54,7 @@ export default class ProductManager {
     if (typeof product.status === 'string') product.status = true;
     try {
       const productAdded = await productsModel.create(product);
-      result.id = productAdded.id;
+      result.product = productAdded;
       result.success = true;
       return result;
     } catch (error) {

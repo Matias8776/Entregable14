@@ -45,3 +45,7 @@ export const ownerCartError = (pid) => {
 export const ownerProductError = (pid) => {
   return `El producto: ${pid} no le pertenece y no puede modificarlo`;
 };
+
+export const notFoundUserError = () => {
+  return 'No existe el usuario con ese id';
+};

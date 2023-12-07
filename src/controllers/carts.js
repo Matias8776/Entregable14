@@ -18,7 +18,7 @@ const productManager = new Products();
 
 export const addCart = async (req, res) => {
   const cart = await cartManager.addCart();
-  response(res, 201, `Creado con el id: ${cart._id}`);
+  response(res, 201, cart);
 };
 
 export const getCarts = async (req, res, next) => {
